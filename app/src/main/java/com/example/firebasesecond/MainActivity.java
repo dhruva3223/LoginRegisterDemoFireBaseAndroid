@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
 
-
+    private TextView text;
     TextView sRegister;
     private EditText sEmail,sPass;
     private TextView sForgot,appName;
